@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    background-color: #F6F6EE;
+ 
+}
+#nav{
+    width: 100%;
+    height: 15vh;
+    background-color: #fff;
+    display: flex;
+    padding: 0 4vw;
+    justify-content: space-between;
+    align-items: center;
+   background-color: #F6F6EE;
+}
+#nav #links{
+    display: flex;
+    gap: 20px;
+}
+#links a{
+    text-decoration: none;
+    font-family: "Voyage";
+    font-weight: 900;
+    font-size: 13px;
+}
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#nav h3 span{
+    font-weight: 600;
+}
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F6F6EE;
+    width: 100%;
+    height: 40vh;
+   
+}
+#heading h1{
+    font-size: 50px;
+    font-family: "Voyage";
+}
+#heading p{
+   
+    text-align: center;
+    margin: 20px 0px;
+    width: 50%;
+}
+#heading button{
+    padding: 12px 32px;
+    background-color: black;
+    color: #fff;
+    border-radius: 100px;
+
+}
+#illus{
+    width: 100%;
+
+}
+#illus img{
+    width: 100%;
+
+}
+#details{
+    width: 100%;
+    background-color: #F6F6EE;
+    margin-top: 50px;
+    display: flex;
+    padding: 10vw 5vw;
+justify-content: space-between;
+}
+#details #dleft{
+    width: 48%;
+    border-right: 2px solid black;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 30px;
+}
+#details #dleft #smline{
+    width: 5%;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+}
+#details #dleft p{
+    width: 40%;
+    font-size: 12px;
+    text-align: right;
+
+}
+#details #dright{
+    width: 48%;
+}
+#dright .feat{
+    display: flex;
+    gap: 20px;
+
+}
+.feat p{
+    margin-top: 10px;
+    font-size: 12px;
+    width: 50%;
+}
